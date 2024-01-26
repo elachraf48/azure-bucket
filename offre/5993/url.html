@@ -1,0 +1,17 @@
+<meta http-equiv="refresh" content="3; url=">
+<script>
+// Initial URL
+
+var initialURL = window.location.href;
+
+// Extracting the hash part of the URL
+var hashPart = initialURL.split('#')[1];
+
+// Extracting values from the hash part
+var hashValues = hashPart.split('/');
+
+// Rearranging the values for the new URL format
+var newURL = 'https://surfacebeat.com/0/0/0/559c05e91116e59cdce87e854c2474b7/' + hashValues[2] + '/' + hashValues[1].split('_')[0] + '_32/' + hashValues[5] + '_' + hashValues[6] + '_' + hashValues[3] + '_' + hashValues[4] + '_md' ;
+
+document.location.href = newURL;
+</script>
